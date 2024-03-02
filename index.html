@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Password Checker</title>
+  <link rel="stylesheet" href="./files/bootstrap.min.css">
+  <link rel="stylesheet" href="./files/hsimp.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1154.0" data-gr-ext-installed="">
+<div class="container mt-5">
+  <h1 class="text-center">HOW IS YOUR PASSWORD?</h1>
+  <ul class="p-3">
+    <li>Make them long, special characters, number, and capitals letters are good</li>
+    <li>Change your passwords now and then</li>
+    <li>Use different passwords for each account</li>
+    <li>Use a password management tool</li>
+    <li>Check <a href="https://haveibeenpwned.com/"> have i been pwned</a> to see if your password or email has been envolved in a breach</li>
+  </ul>
+  <div class="form-group mt-3">
+    <label class="h3">Password</label>
+    <input class="d-block mb-3 hsimp-level" placeholder="Type password here" id="password-box" type="password">
+    <div id="password-time" class="text-center hsimp-time h2"></div>
+    <ul id="password-checks" class="text-center hsimp-checks"></ul>
+  </div>
+</div>
+<script src="./files/hsimp.min.js"></script>
+<script src="./files/password.js"></script>
+</body>
+</html>
